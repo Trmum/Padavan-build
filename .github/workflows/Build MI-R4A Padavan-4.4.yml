@@ -14,7 +14,7 @@ on:
         required: false
 env:
   TNAME: ${{ github.event.inputs.production }}
-  REPOSITORY_URL: https://github.com/TurBoTse/padavan-4.4.git
+  REPOSITORY_URL: https://github.com/TurBoTse/padavan.git
   
 jobs:
   build:
